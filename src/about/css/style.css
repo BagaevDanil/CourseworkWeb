@@ -360,7 +360,7 @@ p {
 /*services end*/
 
 /*about start*/
-.about {
+.section_about {
     padding: 115px 0;
     background-color: #171616;
 }
@@ -521,7 +521,7 @@ p {
 }
 
 .footer__wrapper {
-    height: 150px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;

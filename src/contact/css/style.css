@@ -557,6 +557,11 @@ p {
     font-size: 12px;
 }
 
+.section_about {
+    padding: 115px 0;
+    background-color: #171616;
+}
+
 /*contacts end*/
 
 
@@ -566,7 +571,7 @@ p {
 }
 
 .footer__wrapper {
-    height: 50px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
