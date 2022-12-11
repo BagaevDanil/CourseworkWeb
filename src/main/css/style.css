@@ -25,6 +25,13 @@ p {
     margin: 0 auto;
 }
 
+.container_news {
+    max-width: 1050px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .btn {
     min-width: 200px;
     height: 50px;
@@ -388,7 +395,7 @@ p {
 }
 
 .about__img {
-    height: 340px;
+    height: 450px;
 }
 
 /*about end*/
