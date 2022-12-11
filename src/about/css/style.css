@@ -25,8 +25,8 @@ p {
     margin: 0 auto;
 }
 
-.container_news {
-    max-width: 1050px;
+.container_about {
+    max-width: 1300px;
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
@@ -372,12 +372,12 @@ p {
 }
 
 .about__block {
-    max-width: 505px;
+    max-width: 700px;
 }
 
 .about__text {
     margin: 35px 0 40px;
-    font-weight: 600;
+    font-weight: 500;
     color: #B7B7B7;
     letter-spacing: 0.23em;
 }
@@ -388,6 +388,7 @@ p {
     font-weight: 500;
     letter-spacing: 0.15em;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .about__link:hover {
@@ -395,7 +396,7 @@ p {
 }
 
 .about__img {
-    height: 450px;
+    height: 340px;
 }
 
 /*about end*/
@@ -403,7 +404,7 @@ p {
 /*process start*/
 .process__title {
     margin-bottom: 50px;
-    font-size: 100px;
+    font-size: 148px;
     font-weight: 900;
     text-transform: uppercase;
     text-align: center;
