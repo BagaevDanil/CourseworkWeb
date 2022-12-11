@@ -1,41 +1,64 @@
-table {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    border-collapse: collapse;
-    color: #686461;
-}
-caption {
-    padding: 10px;
-    color: white;
-    background: #8FD4C1;
-    font-size: 18px;
-    text-align: left;
-    font-weight: bold;
-}
-th {
-    border-bottom: 3px solid #B9B29F;
-    padding: 10px;
-    text-align: left;
-}
-td {
-    padding: 10px;
-}
-tr:nth-child(odd) {
-    background: white;
-}
-tr:nth-child(even) {
-    background: #E8E6D1;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
 
-.container_menu {
-    max-width: 1000px;
-    width: 100%;
+@font-face {
+    font-family: 'Rex';
+    src: local('Rex Bold'), local('Rex-Bold'),
+        url('RexBold.woff2') format('woff2'),
+        url('RexBold.woff') format('woff'),
+        url('RexBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+.table_dark {
+    font-family: 'Rex';
+    font-size: 26px;
+    width: 900px;
+    text-align: left;
+    border-collapse: collapse;
+    background: #171616;
+
+
     padding: 0 15px;
     margin: 0 auto;
 }
+.table_dark th {
+    color: #6b1c13;
+    border-bottom: 1px solid #bbbbbb;
+    padding: 12px 17px;
+}
+.table_dark th_name {
+    color: #6b1c13;
+    width: 700px;
+    border-bottom: 1px solid #bbbbbb;
+    padding: 12px 17px;
+}
+.table_dark caption {
+    color: #c72412;
+    font-size: 36px;
+    border-bottom: 1px solid #bbbbbb;
+    padding: 12px 17px;
+}
+.table_dark td {
+    color: #CAD4D6;
+    border-bottom: 1px solid #bbbbbb;
+    border-right:1px solid #bbbbbb;
+    padding: 7px 17px;
+}
+.table_dark tr:last-child td {
+    border-bottom: none;
+}
+.table_dark td:last-child {
+    border-right: none;
+}
+.table_dark tr:hover td {
+    text-decoration: underline;
+}
 
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+
+ 
 
 *, *:before, *:after {
     box-sizing: border-box;
