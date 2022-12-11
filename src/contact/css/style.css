@@ -247,9 +247,6 @@ p {
     margin-bottom: 100px;
 }
 
-.section.process {
-    padding-top: 50px;
-}
 
 /*Info start*/
 
@@ -569,7 +566,7 @@ p {
 }
 
 .footer__wrapper {
-    height: 150px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
